@@ -1,0 +1,53 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #333333;
+    color: #FFF;
+}
+
+.title {
+    color: #D7B637
+}
+
+form input {
+    background-color: #FFF !important;
+}
+
+.card-item .type-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.card-item .card-box {
+    position: relative;
+    margin: 15px;
+    border-top: 1px solid #CEBF7B;
+    border-bottom: 1px solid #CEBF7B;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.card-item .card-box .remove-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #F00;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.card-item .card-box .name {
+    text-transform: capitalize;
+}
+
+.card-item .type-list .type-item {
+    display: inline-block;
+    color: #CEBF7B;
+    text-transform: capitalize;
+    margin-right: 5px;
+}
+
+.card-item .type-list .type-item:last-child {
+    margin-right: 0;
+}
